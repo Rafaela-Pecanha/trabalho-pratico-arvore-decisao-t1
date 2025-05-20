@@ -1,10 +1,12 @@
 # 🌳 Relatório de Experimentos com Árvores de Decisão
 
 ## 👩‍💻 Autores
-- Rafaela P. M. Fernandes  
-- Atharv Nuthi  
+
+- Rafaela P. M. Fernandes
+- Atharv Nuthi
+
 Instituto de Computação – Universidade Federal Fluminense (UFF)  
-Emails: rafaelapecanha@id.uff.br, atharvnuthi@id.uff.br  
+Emails: rafaelapecanha@id.uff.br, atharvnuthi@id.uff.br
 
 ## 📘 Descrição
 
@@ -13,11 +15,13 @@ Este repositório apresenta experimentos utilizando algoritmos baseados em **ár
 ## 🧪 Experimentos Realizados
 
 ### 🌺 Dataset Iris
-- Classificação das espécies *Setosa*, *Versicolor* e *Virginica*.
+
+- Classificação das espécies _Setosa_, _Versicolor_ e _Virginica_.
 - Utilizado o algoritmo **CART** com critério de impureza Gini.
 - Avaliação com **validação cruzada 10-fold**.
 
 ### 🧬 Dataset Breast Cancer Wisconsin
+
 - Classificação de tumores como **benignos** ou **malignos**.
 - Utilização de **Random Forest** com ajustes no **threshold de decisão**.
 - Análise comparativa entre modelos **com e sem outliers** (identificados via IQR).
@@ -38,6 +42,8 @@ Este repositório apresenta experimentos utilizando algoritmos baseados em **ár
 - **Modelo com outliers** obteve acurácia de **96%**, superando o modelo sem outliers (93%).
 - A presença de outliers contribuiu positivamente na identificação da classe **maligna**, contendo informações relevantes.
 - A matriz de confusão revelou **alta sensibilidade e precisão** no modelo com outliers (ex: 103 VP, 62 VN).
+- No conjunto Iris, a classe Setosa foi claramente distinguida com alta precisão, enquanto as classes **Versicolor e Virginica** apresentaram alguns casos de confusão mútua.
+- A acurácia média na **validação cruzada com 10 dobras** foi superior a do simples divisão treino-teste.
 
 ## 📁 Estrutura do Repositório
 
