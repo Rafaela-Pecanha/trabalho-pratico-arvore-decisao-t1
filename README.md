@@ -42,6 +42,9 @@ Este repositório apresenta experimentos utilizando algoritmos baseados em **ár
 ## 📁 Estrutura do Repositório
 
 ├── breast_cancer.ipynb # Notebook com experimento no dataset Breast Cancer
+
 ├── iris_classification.ipynb # Notebook com experimento no dataset Iris
+
 ├── data/ # Conjuntos de dados (se necessário)
+
 ├── README.md # Este arquivo
